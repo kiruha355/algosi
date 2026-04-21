@@ -1,0 +1,19 @@
+> 1 qwerty 3.14
+OK: inserted key 'qwerty' = 3.14
+
+> 1 asdf 5.0
+OK: inserted key 'asdf' = 5
+
+> 3
+qwerty: 3.14
+\-- asdf: 5
+
+> 4 qwerty
+FOUND: 'qwerty' = 3.14
+
+> 2 asdf
+OK: deleted key 'asdf'
+
+> 3
+qwerty: 3.14
+
