@@ -56,5 +56,3 @@ for filepath in "$DIR"/*"$SUFFIX"; do
     mv -- "$filepath" "$new_path"
     echo "Переименовано: $filename → $new_name"
 done
-
-# & 'C:\Program Files\Git\bin\bash.exe' ./9_var.sh .txt 10 '@' ./labi
